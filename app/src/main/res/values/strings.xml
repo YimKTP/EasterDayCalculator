@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Easter Day Calculator</string>
+    <string name="appHeader1">Easter Day</string>
+    <string name="appHeader2">Calculator</string>
+    <string name="summitButton">Summit</string>
+    <string name="textViewText">Enter the year you want to know for Easter.</string>
+    <string name="resultDate">Sunday, February 3.</string>
+    <string name="resultYear">In 2020, Easter falls on</string>
+</resources>
