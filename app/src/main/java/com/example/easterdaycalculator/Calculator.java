@@ -66,6 +66,6 @@ public class Calculator {
                 monthText = "December";
                 break;
         }
-        return (monthText + ", " + dateText);
+        return (monthText + " " + dateText + ".");
     }
 }

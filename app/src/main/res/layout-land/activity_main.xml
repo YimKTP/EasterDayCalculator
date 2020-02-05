@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/back"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b6e3e9"
-    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,15 +15,15 @@
         android:text="@string/appHeader2"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#fdafab"
+        android:textColor="@color/primaryColor"
         android:textSize="50sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.742"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.176" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <TextView
         android:id="@+id/textHeader1"
@@ -35,32 +33,32 @@
         android:text="@string/appHeader1"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#fdafab"
+        android:textColor="@color/primaryColor"
         android:textSize="50sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <EditText
         android:id="@+id/yearEnter"
         android:layout_width="284dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="164dp"
         android:ems="10"
         android:fontFamily="sans-serif-condensed"
         android:hint="In an AD format, for example 2020"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:textColor="@android:color/tertiary_text_light"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674" />
+        app:layout_constraintVertical_bias="0.63" />
 
     <TextView
         android:id="@+id/inputTextView"
@@ -69,14 +67,14 @@
         android:fontFamily="@font/caveat"
         android:text="@string/textViewText"
         android:textAlignment="center"
-        android:textColor="@android:color/tertiary_text_light"
+        android:textColor="#ffffff"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.426" />
 
     <Button
         android:id="@+id/submitButton"
@@ -86,10 +84,10 @@
         android:text="submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.913"
-        app:layout_constraintStart_toEndOf="@+id/yearEnter"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.898" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -97,10 +95,10 @@
         android:layout_height="175dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintHorizontal_bias="0.989"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911"
+        app:layout_constraintVertical_bias="0.932"
         app:srcCompat="@drawable/easter" />
 
     <ImageView
@@ -109,10 +107,10 @@
         android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918"
+        app:layout_constraintVertical_bias="0.931"
         app:srcCompat="@drawable/rabbit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
